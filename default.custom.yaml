@@ -7,7 +7,7 @@ customization:
 patch:
   ascii_composer:
     good_old_caps_lock: true
-    switch_key: {Caps_Lock: clear, Control_L: noop, Control_R: noop, Shift_L: commit_code, Shift_R: noop}
+    switch_key: {Caps_Lock: commit_code, Control_L: noop, Control_R: noop, Shift_L: commit_code, Shift_R: commit_code, Return: commit_code, KP_Enter: commit_code}
   key_binder:
     bindings:
       - { when: has_menu, accept: minus, send: Page_Up }
