@@ -2,12 +2,12 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.16.1
   generator: "Rime::SwitcherSettings"
-  modified_time: "Thu Sep  5 14:05:19 2024"
+  modified_time: "Tue Sep 10 18:32:18 2024"
   rime_version: 1.11.2
 patch:
   ascii_composer:
     good_old_caps_lock: true
-    switch_key: {Caps_Lock: commit_code, Control_L: noop, Control_R: noop, Shift_L: commit_code, Shift_R: commit_code, Return: commit_code, KP_Enter: commit_code}
+    switch_key: {Caps_Lock: clear, Control_L: noop, Control_R: noop, KP_Enter: commit_code, Return: commit_code, Shift_L: commit_code, Shift_R: commit_code}
   key_binder:
     bindings:
       - { when: has_menu, accept: minus, send: Page_Up }
